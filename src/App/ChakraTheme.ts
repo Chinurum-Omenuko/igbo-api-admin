@@ -162,6 +162,11 @@ export default extendTheme({
         endColor: 'gray.200',
       },
     },
+    Spinner: {
+      baseStyle: {
+        color: 'black',
+      },
+    },
     Heading: {
       sizes: {
         '2xl': {
@@ -298,6 +303,13 @@ export default extendTheme({
     StackDivider: {
       baseStyle: {
         borderColor: 'gray.400',
+      },
+    },
+    Modal: {
+      baseStyle: {
+        header: {
+          fontFamily: 'heading',
+        },
       },
     },
   },
